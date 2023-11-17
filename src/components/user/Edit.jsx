@@ -81,7 +81,7 @@ export default function Edit() {
                             <Input {...items} handelData={handelData} errors={errors} key={items.id} />
                         ))}
 
-                    <input type='submit' className='form-control bg-danger text-white ' value='Add User' />
+                    <input type='submit' className='form-control bg-danger text-white ' value='UPDATE' />
                 </div>
             </form>
         </div>
